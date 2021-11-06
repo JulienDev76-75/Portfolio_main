@@ -86,6 +86,12 @@ textarea {
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
+
+   /* ****************HEADER************** */
+   * {
+  font-family: 'Poppins', sans-serif;
+  }
+
    .carousel-item {
     height: 65vh;
     min-height: 350px;
@@ -95,6 +101,50 @@ textarea {
     -o-background-size: cover;
     background-size: cover;
   }
+
+  #header-presentation {
+    height : 100vh;
+    background-image: url('https://source.unsplash.com/RCAhiGJsUUE/1920x1080');
+    background-repeat: no-repeat;
+    width : 100%;
+    background-size: cover;
+  }
+
+  .aboutme {
+  border: 0.4em solid;
+  width : 100%;
+  border-color: white;
+  }
+
+  .text-focus-in {
+    -webkit-animation: text-focus-in 6s cubic-bezier(0.550, 0.055, 0.675, 0.190) both;
+            animation: text-focus-in 6s cubic-bezier(0.550, 0.055, 0.675, 0.190) both;
+  }
+@-webkit-keyframes text-focus-in {
+  0% {
+    -webkit-filter: blur(12px);
+            filter: blur(12px);
+    opacity: 0;
+  }
+  100% {
+    -webkit-filter: blur(0px);
+            filter: blur(0px);
+    opacity: 1;
+  }
+}
+@keyframes text-focus-in {
+  0% {
+    -webkit-filter: blur(12px);
+            filter: blur(12px);
+    opacity: 0;
+  }
+  100% {
+    -webkit-filter: blur(0px);
+            filter: blur(0px);
+    opacity: 1;
+  }
+}
+
 
 /* ==========================================================================
    Helper classes

@@ -31,10 +31,11 @@
     <div id="header-presentation" class="bg-warning">
       <div class="container pt-5">
         <div class="aboutme pt-5 mt-5 pb-5 mb-2">
-          <h1 class="julien_coart text-center text-white">Julien Coart</h1>
+          <h1 class="julien_coart text-center text-white mb-5">Julien Coart</h1>
           <div class="wrapper">
             <h2 class="text-white text-center p-2 typing-demo">Développeur Web et Web Mobile</h2>
           </div>
+          <hr class="hr text-white mx-auto w-50">
           <div class="text-center">
             <button type="button" class="btn text-dark mt-4 mb-4 text-center" data-bs-toggle="button"
               autocomplete="off">
@@ -61,106 +62,147 @@
       </button>
       <div class="collapse navbar-collapse" id="navbarResponsive">
         <ul class="navbar-nav ms-auto">
-          <li class="nav-item active">
-            <a class="nav-link" href="#">Présentation</a>
+          <li class="nav-item">
+            <a class="nav-link text-white" href="#">Présentation</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Compétences</a>
+            <a class="nav-link text-white" href="#">Compétences</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Projets</a>
+            <a class="nav-link text-white" href="#">Projets</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Contact</a>
+            <a class="nav-link text-white" href="#">Contact</a>
           </li>
         </ul>
       </div>
     </div>
   </nav>
 
-  <section class="py-5">
-    <div class="row text-center w-75 mx-auto">
-      <h2 class="text-center text-dark pb-2 pt-4 pt-5">Mes Compétences</h2>
-    </div>
-    <div class="row mt-5 mb-5 mx-auto">
-      <div class="col-sm-6">
-        <div class="card">
-          <div class="card-body">
-            <h4 class="card-title slide-in-left ">
-              <FontAwesomeIcon icon={faCogs} />&nbsp;&nbsp;Mes compétences techniques
-            </h4>
-            <h3 class="pt-3"><span class="badge bg-secondary slide-in-fwd-top">HTML</span>&nbsp;&nbsp;<span
-                class="badge bg-secondary slide-in-fwd-top">CSS</span>&nbsp;&nbsp;<span
-                class="badge bg-secondary slide-in-fwd-top">JAVASCRIPT</span></h3>
-            <h3><span class="badge bg-secondary slide-in-fwd-top">PHP</span>&nbsp;&nbsp;<span
-                class="badge bg-secondary slide-in-fwd-top">SQL</span></h3>
-            <h4 class="pt-4">
-              <FontAwesomeIcon icon={faTools} />&nbsp;&nbsp;Mes FrameWork
-            </h4>
-            <h3 class="pt-3"><span class="badge bg-secondary slide-in-fwd-top">React.Js</span>&nbsp;&nbsp;<span
-                class="badge bg-secondary slide-in-fwd-top">Symfony</span>&nbsp;&nbsp;<span
-                class="badge bg-secondary slide-in-fwd-top">MySQL</span></h3>
-            <h4 class="pt-4">
-              <FontAwesomeIcon icon={faPaintBrush} />&nbsp;&nbsp;Mes Visuels
-            </h4>
-            <h3 class="pt-3"><span class="badge bg-secondary slide-in-fwd-top">Canva</span>&nbsp;&nbsp;<span
-                class="badge bg-secondary slide-in-fwd-top">Illustrator</span>&nbsp;&nbsp;<span
-                class="badge bg-secondary slide-in-fwd-top">Photoshop</span></h3>
-            <h4 class="pt-4">
-              <FontAwesomeIcon icon={faLightbulb} />&nbsp;&nbsp;Mes plus
-            </h4>
-            <h3 class="pt-3"><span class="badge bg-secondary slide-in-fwd-top">GitHub</span>&nbsp;&nbsp;<span
-                class="badge bg-secondary slide-in-fwd-top">Wordpress</span>&nbsp;&nbsp;<span
-                class="badge bg-secondary slide-in-fwd-top">Google
-                Analytics</span></h3>
-          </div>
-        </div>
-      </div>
-      <div class="col-sm-6">
-        <div class="card">
-          <ul>
-            <h4>Science Fiction&nbsp;
-              <FontAwesomeIcon icon={faRocket} />
-            </h4>
-            <h4>Sport&nbsp;
-              <FontAwesomeIcon icon={faFutbol} />
-            </h4>
-            <h4>Jeux vidéo&nbsp;
-              <FontAwesomeIcon icon={faGamepad} />
-            </h4>
-            <h4>Astronomie&nbsp;
-              <FontAwesomeIcon icon={faStar} />
-            </h4>
-            <h4>Voyage&nbsp;
-              <FontAwesomeIcon icon={faPlaneDeparture} />
-            </h4>
-          </ul>
-          <h4 class="mt-5 pb-2">
-            <FontAwesomeIcon icon={faPowerOff} />&nbsp;&nbsp;Mes Softs Skills
-          </h4>
-          <ul>
-            <h4>Cultivé&nbsp;
-              <FontAwesomeIcon icon={faBook} />
-            </h4>
-            <h4>Polyvalent&nbsp;
-              <FontAwesomeIcon icon={faHandSpock} />
-            </h4>
-            <h4>Travail en équipe&nbsp;
-              <FontAwesomeIcon icon={faUserFriends} />
-            </h4>
-            <h4>Curieux&nbsp;
-              <FontAwesomeIcon icon={faQuestion} />
-            </h4>
-            <h4>Avenant&nbsp;
-              <FontAwesomeIcon icon={faSmile} />
-            </h4>
-          </ul>
+  <section>
+    <div class="row mt-5">
+      <div class="col-md-12">
+        <div class="heading">
+          <h2>COMPETENCES</h2>
+          <div class="sub-heading pt-2"></div>
+          <h3>Ce que je sais faire</h3>
         </div>
       </div>
     </div>
 
+    <div class="card text-center w-75 mx-auto">
+      <div class="card-header">
+      </div>
+      <div class="card-body">
+        <h4 class="card-title slide-in-left">
+          <FontAwesomeIcon icon={faCogs} />&nbsp;&nbsp;Mes Compétences Techniques
+        </h4>
+        <h3 class="pt-3"><span class="badge bg-secondary slide-in-fwd-top">HTML</span>&nbsp;&nbsp;<span
+            class="badge bg-secondary slide-in-fwd-top">CSS</span>&nbsp;&nbsp;<span
+            class="badge bg-secondary slide-in-fwd-top">JAVASCRIPT</span></h3>
+        <h3><span class="badge bg-secondary slide-in-fwd-top">PHP</span>&nbsp;&nbsp;<span
+            class="badge bg-secondary slide-in-fwd-top">SQL</span></h3>
+      </div>
+      <div class="card-body">
+        <h4 class="card-title slide-in-left">
+          <FontAwesomeIcon icon={faCogs} />&nbsp;&nbsp;Mes FrameWork
+        </h4>
+        <h3 class="pt-3"><span class="badge bg-secondary slide-in-fwd-top">React.Js</span>&nbsp;&nbsp;<span
+            class="badge bg-secondary slide-in-fwd-top">Symfony</span>&nbsp;&nbsp;<span
+            class="badge bg-secondary slide-in-fwd-top">MySQL</span></h3>
+      </div>
+      <div class="card-body">
+        <h4 class="card-title slide-in-left">
+          <FontAwesomeIcon icon={faCogs} />&nbsp;&nbsp;Mes Visuels
+        </h4>
+        <h3 class="pt-3"><span class="badge bg-secondary slide-in-fwd-top">Canva</span>&nbsp;&nbsp;<span
+            class="badge bg-secondary slide-in-fwd-top">Illustrator</span>&nbsp;&nbsp;<span
+            class="badge bg-secondary slide-in-fwd-top">Photoshop</span></h3>
+      </div>
+      <div class="card-body">
+        <h4 class="card-title slide-in-left">
+          <FontAwesomeIcon icon={faCogs} />&nbsp;&nbsp;Mes Plus
+        </h4>
+        <p class="card-text">
+        <h3 class="pt-3"><span class="badge bg-secondary slide-in-fwd-top">GitHub</span>&nbsp;&nbsp;<span
+            class="badge bg-secondary slide-in-fwd-top">Wordpress</span>&nbsp;&nbsp;<span
+            class="badge bg-secondary slide-in-fwd-top">Google
+            Analytics</span></h3>
+      </div>
+      <div class="card-body">
+        <h4 class="card-title slide-in-left">
+          <FontAwesomeIcon icon={faCogs} />&nbsp;&nbsp;Mes Soft Skills
+        </h4>
+        <h4>Cultivé&nbsp;
+          <i class="fas fa-book"></i>
+        </h4>
+        <h4>Polyvalent&nbsp;
+          <FontAwesomeIcon icon={faHandSpock} />
+        </h4>
+        <h4>Travail en équipe&nbsp;
+          <FontAwesomeIcon icon={faUserFriends} />
+        </h4>
+        <h4>Curieux&nbsp;
+          <FontAwesomeIcon icon={faQuestion} />
+        </h4>
+        <h4>Avenant&nbsp;
+          <FontAwesomeIcon icon={faSmile} />
+        </h4>
+      </div>
+      <div class="card-footer text-muted">
+      </div>
+    </div>
+    <hr class="hr text-dark mx-auto w-50">
+
+    <!-- Timeline -->
+    <div class="row mt-5">
+      <div class="col-md-12">
+        <div class="heading">
+          <h2>Parcours</h2>
+          <div class="sub-heading pt-2"></div>
+          <h3>Ce que j'ai fais</h3>
+        </div>
+      </div>
+    </div>
+    <link href='//fonts.googleapis.com/css?family=Roboto:200,400,600' rel='stylesheet' type='text/css'>
+    <div class="history-tl-container">
+      <ul class="tl">
+        <li class="tl-item" ng-repeat="item in retailer_history">
+          <div class="timestamp">
+            3rd March 2015<br> 7:00 PM
+          </div>
+          <div class="item-title">Start from Shire</div>
+          <div class="item-detail">Don't forget the ring</div>
+        </li>
+        <li class="tl-item" ng-repeat="item in retailer_history">
+          <div class="timestamp">
+            19th March 2015<br> 3:00 PM
+          </div>
+          <div class="item-title">Kill some Orcs</div>
+          <div class="item-detail">Don't enter the caves!!</div>
+        </li>
+        <li class="tl-item" ng-repeat="item in retailer_history">
+          <div class="timestamp">
+            1st June 2015<br> 7:00 PM
+          </div>
+          <div class="item-title">Throw that goddamn ring in the lava</div>
+          <div class="item-detail">Also, throw that Gollum too</div>
+        </li>
+      </ul>
+    </div>
+    <hr class="hr text-dark mx-auto w-50">
+
     <!-- Project Page - Carousel -->
-    <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+    <div class="row mt-5">
+      <div class="col-md-12">
+        <div class="heading">
+          <h2> MES PROJETS</h2>
+          <div class="sub-heading"></div>
+          <h3>Mon portfolio</h3>
+        </div>
+      </div>
+    </div>
+    <div id="carouselExampleCaptions" class="carousel slide w-75 mx-auto mb-5" data-bs-ride="carousel">
       <div class="carousel-indicators">
         <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
           aria-current="true" aria-label="Slide 1"></button>
@@ -219,18 +261,10 @@
         <span class="visually-hidden">Next</span>
       </button>
     </div>
-
+    <hr class="hr text-dark mx-auto w-50">
   </section>
 
   <!-- Footer -->
-  <div class="container-footer">
-    <div class="row">
-
-    </div>
-  </div>
-
-
-
   <footer class="bg-dark text-center text-white">
     <h2 class="text-center pb-2 pt-5 w-75 mx-auto">Pour me contacter :
       <hr className="hr w-100">

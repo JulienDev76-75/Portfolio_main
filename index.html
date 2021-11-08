@@ -28,9 +28,9 @@
 <body>
   <!-- Header -->
   <header>
-    <div id="header-presentation" class="bg-warning">
-      <div class="container pt-5">
-        <div class="aboutme pt-5 mt-5 pb-5 mb-2">
+    <div id="header-presentation">
+      <div class="container pt-5 mt-5 w-75 mx-auto">
+        <div class="aboutme pt-4 mt-5 pb-1 mb-2">
           <h1 class="julien_coart text-center text-white mb-5">Julien Coart</h1>
           <div class="wrapper">
             <h2 class="text-white text-center p-2 typing-demo">Développeur Web et Web Mobile</h2>
@@ -43,16 +43,18 @@
           </div>
         </div>
       </div>
-      <div class="text-center mt-5 mb-5">
+      <!-- <div class="text-center mt-4 mb-5">
         <button id="togg1" class="btn btn-light">Qui suis-je ?</button>
-      </div>
+      </div> -->
       <div id="d1" style="visibility: hidden;">
-        <p class="text-white text-center mx-auto mt-3">Tout juste titulaire d'un Titre de Développeur Web et Web Mobile,
-          je souhaite mettre ma passion au service d'une entreprise.</p>
+        <p class="text-white text-center mx-auto mt-3">Tout juste titulaire d'un Titre de Développeur Web
+          et Web Mobile,
+          je souhaite mettre ma passion au service d'une entreprise.</p><br />
+        <p></p>
       </div>
   </header>
 
-  <!-- Page Content -->
+  <!-- Navigation -->
   <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
     <div class="container">
       <a class="navbar-brand" href="#">Julien Coart</a>
@@ -63,16 +65,19 @@
       <div class="collapse navbar-collapse" id="navbarResponsive">
         <ul class="navbar-nav ms-auto">
           <li class="nav-item">
-            <a class="nav-link text-white" href="#">Présentation</a>
+            <a class="nav-link text-white" href="#header-presentation">Présentation</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link text-white" href="#">Compétences</a>
+            <a class="nav-link text-white" href="#competence">Compétences</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link text-white" href="#">Projets</a>
+            <a class="nav-link text-white" href="#timeline">Timeline</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link text-white" href="#">Contact</a>
+            <a class="nav-link text-white" href="#projets">Projets</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-white" href="#contact">Contact</a>
           </li>
         </ul>
       </div>
@@ -80,7 +85,8 @@
   </nav>
 
   <section>
-    <div class="row mt-5">
+    <!-- Compétences -->
+    <div class="row mt-5" id="competence">
       <div class="col-md-12">
         <div class="heading">
           <h2>COMPETENCES</h2>
@@ -89,51 +95,55 @@
         </div>
       </div>
     </div>
-
     <div class="card text-center w-75 mx-auto">
       <div class="card-header">
       </div>
       <div class="card-body">
         <h4 class="card-title slide-in-left">
           Mes Compétences Techniques
+          <hr class="hr text-dark mx-auto w-25">
         </h4>
-        <h5 class="pt-3"><span class="badge bg-secondary slide-in-fwd-top">HTML</span>&nbsp;&nbsp;<span
-            class="badge bg-secondary slide-in-fwd-top">CSS</span>&nbsp;&nbsp;<span
-            class="badge bg-secondary slide-in-fwd-top">JAVASCRIPT</span>
-          <span class="badge bg-secondary slide-in-fwd-top">PHP</span>&nbsp;&nbsp;<span
-            class="badge bg-secondary slide-in-fwd-top">SQL</span>
+        <h5 class="pt-1"><span class="badge bg-dark slide-in-fwd-top">HTML</span>&nbsp;&nbsp;<span
+            class="badge bg-dark slide-in-fwd-top">CSS</span>&nbsp;&nbsp;<span
+            class="badge bg-dark slide-in-fwd-top">JAVASCRIPT</span>
+          <span class="badge bg-dark slide-in-fwd-top">PHP</span>&nbsp;&nbsp;<span
+            class="badge bg-dark slide-in-fwd-top">SQL</span>
+          <span class="badge bg-dark slide-in-fwd-top">MySQL</span>
         </h5>
       </div>
       <div class="card-body">
         <h4 class="card-title slide-in-left">
-          Mes FrameWork
+          Mes Frameworks
+          <hr class="hr text-dark mx-auto w-25">
         </h4>
-        <h5 class="pt-3"><span class="badge bg-secondary slide-in-fwd-top">React.Js</span>&nbsp;&nbsp;<span
-            class="badge bg-secondary slide-in-fwd-top">Symfony</span>&nbsp;&nbsp;<span
-            class="badge bg-secondary slide-in-fwd-top">MySQL</span></h5>
+        <h5 class="pt-1"><span class="badge bg-dark slide-in-fwd-top">React.Js</span>&nbsp;&nbsp;<span
+            class="badge bg-dark slide-in-fwd-top">Symfony</span>&nbsp;&nbsp;</h5>
       </div>
       <div class="card-body">
         <h4 class="card-title slide-in-left">
           Mes Visuels
+          <hr class="hr text-dark mx-auto w-25">
         </h4>
-        <h5 class="pt-3"><span class="badge bg-secondary slide-in-fwd-top">Canva</span>&nbsp;&nbsp;<span
-            class="badge bg-secondary slide-in-fwd-top">Illustrator</span>&nbsp;&nbsp;</h5>
+        <h5 class="pt-1"><span class="badge bg-dark slide-in-fwd-top">Canva</span>&nbsp;&nbsp;<span
+            class="badge bg-dark slide-in-fwd-top">Illustrator</span>&nbsp;&nbsp;</h5>
       </div>
       <div class="card-body">
         <h4 class="card-title slide-in-left">
           Mes Plus
+          <hr class="hr text-dark mx-auto w-25">
         </h4>
         <p class="card-text">
-        <h5 class="pt-3"><span class="badge bg-secondary slide-in-fwd-top">GitHub</span>&nbsp;&nbsp;<span
-            class="badge bg-secondary slide-in-fwd-top">Wordpress</span>&nbsp;&nbsp;<span
-            class="badge bg-secondary slide-in-fwd-top">Google
+        <h5 class="pt-1"><span class="badge bg-dark slide-in-fwd-top">GitHub</span>&nbsp;&nbsp;<span
+            class="badge bg-dark slide-in-fwd-top">Wordpress</span>&nbsp;&nbsp;<span
+            class="badge bg-dark slide-in-fwd-top">Google
             Analytics</span></h5>
       </div>
-      <div class="card-body">
+      <div class="card-body pb-2">
         <h4 class="card-title slide-in-left">
           Mes Soft Skills
+          <hr class="hr text-dark mx-auto w-25">
         </h4>
-        <h5 class="pt-4">Cultivé&nbsp;
+        <h5 class="pt-1">Cultivé&nbsp;
           <i class="fas fa-book"></i>
         </h5>
         <h5>Polyvalent&nbsp;
@@ -152,13 +162,13 @@
       <div class="card-footer text-muted">
       </div>
     </div>
-    <hr class="hr text-dark mx-auto w-50">
+    <hr id="timeline" class="hr text-dark mx-auto w-50">
 
     <!-- Timeline -->
-    <div class="row mt-5">
+    <div class="container mt-5">
       <div class="col-md-12">
         <div class="heading">
-          <h2>Parcours</h2>
+          <h2>MON PARCOURS</h2>
           <div class="sub-heading pt-2"></div>
           <h3>Ce que j'ai fais</h3>
         </div>
@@ -274,13 +284,13 @@
         </li>
       </ul>
     </div>
-    <hr class="hr text-dark mx-auto w-50">
+    <hr id="projets" class="hr text-dark mx-auto w-50">
 
     <!-- Project Page - Carousel -->
     <div class="row mt-5">
       <div class="col-md-12">
         <div class="heading">
-          <h2> MES PROJETS</h2>
+          <h2>MES PROJETS</h2>
           <div class="sub-heading"></div>
           <h3>Mon portfolio</h3>
         </div>
@@ -304,32 +314,46 @@
         <div class="carousel-item active"
           style="background-image: url('https://source.unsplash.com/RCAhiGJsUUE/1920x1080')">
           <div class="carousel-caption">
-            <h5>First slide label</h5>
-            <p>Some representative placeholder content for the first slide.</p>
+            <a href="https://juliendev76-75.github.io/ShiFuMi/" target="_blank" rel=" noreferrer noopener">
+              <h5>ShiFuMi</h5>
+            </a>
+            <p>Je vous présente mon Shifumi réalisé uniquement avec le langage Javascript (sans interface graphique).
+            </p>
           </div>
         </div>
         <div class="carousel-item" style="background-image: url('https://source.unsplash.com/wfh8dDlNFOk/1920x1080')">
           <div class="carousel-caption">
-            <h5>Second slide label</h5>
-            <p>Some representative placeholder content for the second slide.</p>
+            <a href="https://juliendev76-75.github.io/Hangman/" target="_blank" rel=" noreferrer noopener">
+              <h5>HangMan</h5>
+            </a>
+            <p>Je vous présente mon jeu du Pendu réalisé uniquement en langage Javascript (sans interface graphique).
+            </p>
           </div>
         </div>
         <div class="carousel-item" style="background-image: url('https://source.unsplash.com/lHGeqh3XhRY/1920x1080')">
           <div class="carousel-caption">
-            <h5>Third slide label</h5>
-            <p>Some representative placeholder content for the third slide.</p>
+            <a href="https://juliendev76-75.github.io/Pairs/" target="_blank" rel=" noreferrer noopener">
+              <h5>Memory</h5>
+            </a>
+            <p>Je vous présente mon jeu des paires aussi connu sous le nom de Pairs ou encore Memory réalisé avec
+              Javascript, HTML, CSS et Boostrap.</p>
           </div>
         </div>
         <div class="carousel-item" style="background-image: url('https://source.unsplash.com/lHGeqh3XhRY/1920x1080')">
           <div class="carousel-caption">
-            <h5>Fourth slide label</h5>
-            <p>Some representative placeholder content for the fourth slide.</p>
+            <a href="https://github.com/JulienDev76-75/Todolist_Appli_BTP" target="_blank" rel="noreferrer noopener">
+              <h5>ToDoList</h5>
+            </a>
+            <p>Je vous présente mon application ToDoList réalisé avec Symfony 5, MySQL, HTML, CSS, Bootstrap.</p>
           </div>
         </div>
         <div class="carousel-item" style="background-image: url('https://source.unsplash.com/lHGeqh3XhRY/1920x1080')">
           <div class="carousel-caption">
-            <h5>Fifth slide label</h5>
-            <p>Some representative placeholder content for the fifth slide.</p>
+            <a href="https://github.com/JulienDev76-75/Application-AppSheet" target="_blank" rel="noreferrer noopener">
+              <h5>Application Vert Marine Analytics</h5>
+            </a>
+            <p>Je vous présente le code de mon application VMA réalisé avec Symfony 5, Chart.Js, Javascript, Boostrap et
+              MySQL.</p>
           </div>
         </div>
       </div>
@@ -345,7 +369,7 @@
         <span class="visually-hidden">Next</span>
       </button>
     </div>
-    <hr class="hr text-dark mx-auto w-50">
+    <hr id="contact" class="hr text-dark mx-auto w-50">
   </section>
 
   <!-- Footer -->

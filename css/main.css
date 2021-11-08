@@ -92,14 +92,8 @@ textarea {
   font-family: 'Montserrat', sans-serif;
   }
 
-   .carousel-item {
-    height: 65vh;
-    min-height: 350px;
-    background: no-repeat center center scroll;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
+  .header {
+    font-size : 2em;
   }
 
   #header-presentation {
@@ -250,7 +244,7 @@ textarea {
     overflow: hidden;
     border-right: 3px solid;
     font-family: monospace;
-    font-size: 2em;
+    font-size: 1.5em;
   }
 
   @keyframes typing {
@@ -276,7 +270,7 @@ textarea {
   .julien_coart{
     color: #f2f2f2;
     font-family: Montserrat;
-    font-size: 7em;
+    font-size: 6em;
     font-weight: bold;
     letter-spacing: -9px;
     line-height: 89px;
@@ -343,8 +337,6 @@ textarea {
       border-color:  #258CC7;
       transition: all 1000ms ease-in-out;
   }
-  ul.tl li .item-title{
-  }
   ul.tl li .item-detail{
       color:rgba(0,0,0,0.5);
       font-size:12px;
@@ -356,6 +348,17 @@ textarea {
       left: -50%;
       text-align: right;
       font-size: 12px;
+  }
+
+  /* Carousel Projet */
+  .carousel-item {
+    height: 65vh;
+    min-height: 350px;
+    background: no-repeat center center scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
   }
 
   /* ==========================================================================

@@ -11,20 +11,20 @@
         "img": "./hangman.jpg",
         "link": "https://juliendev76-75.github.io/Hangman/",
         "titre": "Hangman",
-        "contenu": "je vous présente mon jeu du Pendu réalisé uniquement en langage Javascript (sans interface graphique). Le but est de parfaire les connaissances acquies avec Javascript, cela fut un excellent exercice afin de réfléchir à une logique et la mettre en place."
+        "contenu": "Je vous présente mon jeu du Pendu réalisé uniquement en langage Javascript (sans interface graphique). Le but est de parfaire les connaissances acquies avec Javascript, cela fut un excellent exercice afin de réfléchir à une logique et la mettre en place."
     },
     {
         "id": 3,
         "img": "./memory.png",
         "link": "https://juliendev76-75.github.io/Pairs/",
         "titre": "Memory",
-        "contenu": "je vous présente mon jeu des paires aussi connu sous le nom de Pairs ou encore Memory. Réalisé avec les lanages HTML-CSS-Javascript, le but est de mettre en oeuvre ces 3 langages de concert afin de valider ma montée en progression. Cet exercice a été réalisé durant une évaluation pour la validation du module Front-end."
+        "contenu": "Je vous présente mon jeu des paires aussi connu sous le nom de Pairs ou encore Memory. Réalisé avec les lanages HTML-CSS-Javascript, le but est de mettre en oeuvre ces 3 langages de concert afin de valider ma montée en progression. Cet exercice a été réalisé durant une évaluation pour la validation du module Front-end."
     },
     {
         "id": 4,
         "img": "./Terredegeeklogo.png",
         "link": "https://juliendev76-75.github.io/Site-Terre-De-Geek/",
         "titre": "Site TerreDeGeek",
-        "contenu": "je vous présente mon site TerreDeGeek.com (site toujours en construction). Le but est d'utiliser de concert HTML et CSS (sans utiliser bootstrap). Le but est de comprendre les intrications entre HTML et CSS, ainsi que de comprendre le fonctionnement de CSS via la flexbox."
+        "contenu": "Je vous présente mon site TerreDeGeek.com (site toujours en construction). Le but est d'utiliser de concert HTML et CSS (sans utiliser bootstrap). Le but est de comprendre les intrications entre HTML et CSS, ainsi que de comprendre le fonctionnement de CSS via la flexbox."
     }
 ]

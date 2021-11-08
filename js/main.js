@@ -27,6 +27,6 @@ function showLetters() {
 }
 showLetters();
 
-//navbar
+
 
 

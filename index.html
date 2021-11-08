@@ -26,6 +26,7 @@
 </head>
 
 <body>
+  <!-- Header -->
   <header>
     <div id="header-presentation" class="bg-warning">
       <div class="container pt-5">
@@ -34,29 +35,24 @@
           <div class="wrapper">
             <h2 class="text-white text-center p-2 typing-demo">Développeur Web et Web Mobile</h2>
           </div>
-          <p class="lead text-white p-4 text-center">Je m'appelle Julien, j'ai 34 ans, tout juste titulaire d'un
-            diplôme
-            de
-            développeur Web, je rêve dorénavant de pouvoir exercer ma passion.
-            <br />Après mes études en Histoire et Sciences Politique, l'opportunité d'être chef d'entreprise en
-            tenant
-            mon propre restaurant s'est offerte à moi.
-          </p>
+          <div class="text-center">
+            <button type="button" class="btn text-dark mt-4 mb-4 text-center" data-bs-toggle="button"
+              autocomplete="off">
+              <a class="btn btn-light" target="_blank" href="" download>Obtenir mon CV</a></button>
+          </div>
         </div>
       </div>
-      <div class="text-center">
-        <button type="button" class="btn text-dark mt-4 mb-4 text-center" data-bs-toggle="button" autocomplete="off">
-          <a class="btn btn-light" target="_blank" href="" download>Obtenir mon CV</a></button>
+      <div class="text-center mt-5 pt-5">
+        <button id="togg1" class="btn btn-light">Qui suis-je ?</button>
       </div>
-      <div class="wrapper">
-        <div class="typing-demo">
-          This is a typing demo.
-        </div>
+      <div id="d1" style="visibility: hidden;">
+        <p class="text-white text-center mx-auto mt-3">Tout juste titulaire d'un Titre de Développeur Web et Web Mobile,
+          je souhaite mettre ma passion au service d'une entreprise.</p>
       </div>
   </header>
 
   <!-- Page Content -->
-  <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
     <div class="container">
       <a class="navbar-brand" href="#">Julien Coart</a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive"
@@ -86,33 +82,36 @@
     <div class="row text-center w-75 mx-auto">
       <h2 class="text-center text-dark pb-2 pt-4 pt-5">Mes Compétences</h2>
     </div>
-
     <div class="row mt-5 mb-5 mx-auto">
       <div class="col-sm-6">
         <div class="card">
           <div class="card-body">
-            <h4 class="card-title">
+            <h4 class="card-title slide-in-left ">
               <FontAwesomeIcon icon={faCogs} />&nbsp;&nbsp;Mes compétences techniques
             </h4>
-            <h3 class="pt-3"><span class="badge bg-secondary">HTML</span>&nbsp;&nbsp;<span
-                class="badge bg-secondary">CSS</span>&nbsp;&nbsp;<span class="badge bg-secondary">JAVASCRIPT</span></h3>
-            <h3><span class="badge bg-secondary">PHP</span>&nbsp;&nbsp;<span class="badge bg-secondary">SQL</span></h3>
+            <h3 class="pt-3"><span class="badge bg-secondary slide-in-fwd-top">HTML</span>&nbsp;&nbsp;<span
+                class="badge bg-secondary slide-in-fwd-top">CSS</span>&nbsp;&nbsp;<span
+                class="badge bg-secondary slide-in-fwd-top">JAVASCRIPT</span></h3>
+            <h3><span class="badge bg-secondary slide-in-fwd-top">PHP</span>&nbsp;&nbsp;<span
+                class="badge bg-secondary slide-in-fwd-top">SQL</span></h3>
             <h4 class="pt-4">
               <FontAwesomeIcon icon={faTools} />&nbsp;&nbsp;Mes FrameWork
             </h4>
-            <h3 class="pt-3"><span className="badge bg-secondary">React.Js</span>&nbsp;&nbsp;<span
-                class="badge bg-secondary">Symfony</span>&nbsp;&nbsp;<span class="badge bg-secondary">MySQL</span></h3>
+            <h3 class="pt-3"><span class="badge bg-secondary slide-in-fwd-top">React.Js</span>&nbsp;&nbsp;<span
+                class="badge bg-secondary slide-in-fwd-top">Symfony</span>&nbsp;&nbsp;<span
+                class="badge bg-secondary slide-in-fwd-top">MySQL</span></h3>
             <h4 class="pt-4">
               <FontAwesomeIcon icon={faPaintBrush} />&nbsp;&nbsp;Mes Visuels
             </h4>
-            <h3 class="pt-3"><span className="badge bg-secondary">Canva</span>&nbsp;&nbsp;<span
-                class="badge bg-secondary">Illustrator</span>&nbsp;&nbsp;<span
-                class="badge bg-secondary">Photoshop</span></h3>
+            <h3 class="pt-3"><span class="badge bg-secondary slide-in-fwd-top">Canva</span>&nbsp;&nbsp;<span
+                class="badge bg-secondary slide-in-fwd-top">Illustrator</span>&nbsp;&nbsp;<span
+                class="badge bg-secondary slide-in-fwd-top">Photoshop</span></h3>
             <h4 class="pt-4">
               <FontAwesomeIcon icon={faLightbulb} />&nbsp;&nbsp;Mes plus
             </h4>
-            <h3 class="pt-3"><span class="badge bg-secondary">GitHub</span>&nbsp;&nbsp;<span
-                class="badge bg-secondary">Wordpress</span>&nbsp;&nbsp;<span className="badge bg-secondary">Google
+            <h3 class="pt-3"><span class="badge bg-secondary slide-in-fwd-top">GitHub</span>&nbsp;&nbsp;<span
+                class="badge bg-secondary slide-in-fwd-top">Wordpress</span>&nbsp;&nbsp;<span
+                class="badge bg-secondary slide-in-fwd-top">Google
                 Analytics</span></h3>
           </div>
         </div>
@@ -160,6 +159,7 @@
       </div>
     </div>
 
+    <!-- Project Page - Carousel -->
     <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
       <div class="carousel-indicators">
         <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
@@ -173,6 +173,7 @@
         <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="4"
           aria-label="Slide 5"></button>
       </div>
+
       <div class="carousel-inner">
         <div class="carousel-item active"
           style="background-image: url('https://source.unsplash.com/RCAhiGJsUUE/1920x1080')">
@@ -206,6 +207,7 @@
           </div>
         </div>
       </div>
+
       <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
         data-bs-slide="prev">
         <span class="carousel-control-prev-icon" aria-hidden="true"></span>
@@ -218,23 +220,16 @@
       </button>
     </div>
 
-    <div>
-      <h2 class="mt-5">Comment afficher ou masquer un élément HTML</h2>
-      <button id="togg1">Cliquez-moi !</button>
-      <button id="togg2">Cliquez-moi !</button>
-      <div id="d1">
-        <p>Ce texte appartient au premier div de ma page</p>
-        <p>Ce deuxième paragraphe également</p>
-      </div>
-      <div id="d2">
-        <p>Il existe deux façons de cacher un élément <span>comme un div</span> en CSS :</p>
-        <ul>
-          <li>Utiliser visibility: hidden</li>
-          <li>Utiliser display: none</li>
-        </ul>
-      </div>
-
   </section>
+
+  <!-- Footer -->
+  <div class="container-footer">
+    <div class="row">
+
+    </div>
+  </div>
+
+
 
   <footer class="bg-dark text-center text-white">
     <h2 class="text-center pb-2 pt-5 w-75 mx-auto">Pour me contacter :
@@ -243,44 +238,31 @@
     </h2>
     <div class="blabla text-center w-75 mx-auto">
 
-      <p>Dans le cadre de ma formation à l'Afpa de Rouen, je suis à la recherche
-        d'un stage non rémunéré pour 9 semaines à partir du 16 août 2021.
+      <p>Tout juste titulaire d'un titre de Véveloppeur Web et Web mobile à l'AFPA du Saint-Etienne du Rouvray, je suis
+        à la recherche d'un emploi dans mon secteur en Normandie ou dans le bassin parisien.
         Si mon profil vous intéresse, vous pouvez directement me contacter
-        en cliquant sur le lien ci-joint : <a className="mailto"
+        en cliquant sur le lien ci-joint : <a class="mailto"
           href="mailto:julien.coart@gmail.com">julien.coart@gmail.com.</a>
       </p>
     </div>
-    <!-- Grid container -->
+
     <div class="container p-4 pb-0">
       <!-- Section: Social media -->
       <section class="mb-4">
-        <!-- Facebook -->
-        <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"><i class="fab fa-facebook-f"></i></a>
-
-        <!-- Twitter -->
-        <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"><i class="fab fa-twitter"></i></a>
-
-        <!-- Google -->
-        <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"><i class="fab fa-google"></i></a>
-
-        <!-- Instagram -->
-        <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"><i class="fab fa-instagram"></i></a>
 
         <!-- Linkedin -->
-        <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"><i class="fab fa-linkedin-in"></i></a>
+        <a class="btn btn-outline-light btn-floating m-1" href="https://www.linkedin.com/in/julien-coart-86142a147/"
+          role="button"><i class="fab fa-linkedin-in"></i></a>
 
         <!-- Github -->
-        <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"><i class="fab fa-github"></i></a>
+        <a class="btn btn-outline-light btn-floating m-1" href="https://github.com/JulienDev76-75" role="button"><i
+            class="fab fa-github"></i></a>
       </section>
-      <!-- Section: Social media -->
     </div>
-    <!-- Grid container -->
 
-    <!-- Copyright -->
     <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
       © 2021 Julien Coart
     </div>
-    <!-- Copyright -->
   </footer>
 
   <script src="js/vendor/modernizr-3.11.2.min.js"></script>

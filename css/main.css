@@ -112,8 +112,8 @@ textarea {
 
   /* Animation */
   .text-focus-in {
-    -webkit-animation: text-focus-in 6s cubic-bezier(0.550, 0.055, 0.675, 0.190) both;
-            animation: text-focus-in 6s cubic-bezier(0.550, 0.055, 0.675, 0.190) both;
+    -webkit-animation: text-focus-in 4.6s cubic-bezier(0.550, 0.055, 0.675, 0.190) both;
+            animation: text-focus-in 4.6s cubic-bezier(0.550, 0.055, 0.675, 0.190) both;
   }
   @-webkit-keyframes text-focus-in {
   0% {
@@ -246,6 +246,10 @@ textarea {
     font-family: monospace;
     font-size: 1.5em;
   }
+  .whoiam {
+    font-family: monospace;
+    font-size: 1.5em;
+  }
 
   @keyframes typing {
     from {
@@ -359,6 +363,11 @@ textarea {
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
+  }
+
+  /* Footer */
+  .mail {
+    text-decoration: none;
   }
 
   /* ==========================================================================

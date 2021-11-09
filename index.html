@@ -1,13 +1,13 @@
 <!doctype html>
-<html class="no-js" lang="">
+<html class="no-js" lang="France">
 
 <head>
   <meta charset="utf-8">
   <title></title>
-  <meta name="description" content="">
+  <meta name="description" content="Portfolio Julien Coart">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <meta property="og:title" content="">
+  <meta property="og:title" content="Portfolio Julien Coart">
   <meta property="og:type" content="">
   <meta property="og:url" content="">
   <meta property="og:image" content="">
@@ -29,13 +29,21 @@
   <!-- Header -->
   <header>
     <div id="header-presentation">
-      <div class="container pt-5 mt-5 w-75 mx-auto">
-        <div class="aboutme pt-4 mt-5 pb-1 mb-2">
+      <div class="container pt-5 mt-4 w-75 mx-auto">
+        <div class="aboutme pt-4 mt-5 mb-2">
           <h1 class="julien_coart text-center text-white mb-5">Julien Coart</h1>
           <div class="wrapper">
-            <h2 class="text-white text-center p-2 typing-demo">Développeur Web et Web Mobile</h2>
+            <h2 class="text-white text-center whoiam text-focus-in  ">Je suis...</h2>
+          </div>
+          <div class="wrapper">
+            <h2 class="text-white text-center p-1 typing-demo">Développeur Web et Web Mobile</h2>
           </div>
           <hr class="hr text-white mx-auto w-50">
+          <div class="text-center mx-auto w-75">
+            <em class="text-white font-italic">Titulaire d'un titre de développeur Web et Web Mobile, je souhaite mettre
+              ma passion
+              au profit d'une entreprise, vous pouvez regarder mes projets et mes compétences ci-dessous.</em>
+          </div>
           <div class="text-center">
             <button type="button" class="btn text-dark mt-4 mb-4 text-center" data-bs-toggle="button"
               autocomplete="off">
@@ -86,7 +94,8 @@
 
   <section>
     <!-- Compétences -->
-    <div class="row mt-5" id="competence">
+    <hr id="competence" class="hr text-dark mx-auto w-50 mt-5">
+    <div class="row mt-5">
       <div class="col-md-12">
         <div class="heading">
           <h2>COMPETENCES</h2>
@@ -98,7 +107,7 @@
     <div class="card text-center w-75 mx-auto">
       <div class="card-header">
       </div>
-      <div class="card-body">
+      <div class="card-body pt-4">
         <h4 class="card-title slide-in-left">
           Mes Compétences Techniques
           <hr class="hr text-dark mx-auto w-25">
@@ -155,14 +164,14 @@
         <h5>Curieux&nbsp;
           <i class="fas fa-question"></i>
         </h5>
-        <h5>Avenant&nbsp;
+        <h5 class="pb-3">Avenant&nbsp;
           <i class="fas fa-smile"></i>
         </h5>
       </div>
       <div class="card-footer text-muted">
       </div>
     </div>
-    <hr id="timeline" class="hr text-dark mx-auto w-50">
+    <hr id="timeline" class="hr text-dark mx-auto w-50 mt-5">
 
     <!-- Timeline -->
     <div class="container mt-5">
@@ -174,8 +183,9 @@
         </div>
       </div>
     </div>
+
     <link href='//fonts.googleapis.com/css?family=Roboto:200,400,600' rel='stylesheet' type='text/css'>
-    <div class="history-tl-container">
+    <div class="history-tl-container w-50">
       <ul class="tl">
         <li class="tl-item" ng-repeat="item in retailer_history">
           <div class="timestamp">
@@ -284,7 +294,7 @@
         </li>
       </ul>
     </div>
-    <hr id="projets" class="hr text-dark mx-auto w-50">
+    <hr id="projets" class="hr text-dark mx-auto w-50 mt-4">
 
     <!-- Project Page - Carousel -->
     <div class="row mt-5">
@@ -314,8 +324,16 @@
         <div class="carousel-item active"
           style="background-image: url('https://source.unsplash.com/RCAhiGJsUUE/1920x1080')">
           <div class="carousel-caption">
+            <div class="card mx-auto mb-5 opacity-75" style="width: 16rem;">
+              <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                  card's content.</p>
+              </div>
+            </div>
             <a href="https://juliendev76-75.github.io/ShiFuMi/" target="_blank" rel=" noreferrer noopener">
-              <h5>ShiFuMi</h5>
+              <h5 class="mail text-white">ShiFuMi</h5>
             </a>
             <p>Je vous présente mon Shifumi réalisé uniquement avec le langage Javascript (sans interface graphique).
             </p>
@@ -323,8 +341,8 @@
         </div>
         <div class="carousel-item" style="background-image: url('https://source.unsplash.com/wfh8dDlNFOk/1920x1080')">
           <div class="carousel-caption">
-            <a href="https://juliendev76-75.github.io/Hangman/" target="_blank" rel=" noreferrer noopener">
-              <h5>HangMan</h5>
+            <a href="https://juliendev76-75.github.io/Hangman/" target="_blank" rel="noreferrer noopener">
+              <h5 class="mail text-white">HangMan</h5>
             </a>
             <p>Je vous présente mon jeu du Pendu réalisé uniquement en langage Javascript (sans interface graphique).
             </p>
@@ -333,7 +351,7 @@
         <div class="carousel-item" style="background-image: url('https://source.unsplash.com/lHGeqh3XhRY/1920x1080')">
           <div class="carousel-caption">
             <a href="https://juliendev76-75.github.io/Pairs/" target="_blank" rel=" noreferrer noopener">
-              <h5>Memory</h5>
+              <h5 class="mail text-white">Memory</h5>
             </a>
             <p>Je vous présente mon jeu des paires aussi connu sous le nom de Pairs ou encore Memory réalisé avec
               Javascript, HTML, CSS et Boostrap.</p>
@@ -342,7 +360,7 @@
         <div class="carousel-item" style="background-image: url('https://source.unsplash.com/lHGeqh3XhRY/1920x1080')">
           <div class="carousel-caption">
             <a href="https://github.com/JulienDev76-75/Todolist_Appli_BTP" target="_blank" rel="noreferrer noopener">
-              <h5>ToDoList</h5>
+              <h5 class="mail text-white">ToDoList</h5>
             </a>
             <p>Je vous présente mon application ToDoList réalisé avec Symfony 5, MySQL, HTML, CSS, Bootstrap.</p>
           </div>
@@ -350,7 +368,7 @@
         <div class="carousel-item" style="background-image: url('https://source.unsplash.com/lHGeqh3XhRY/1920x1080')">
           <div class="carousel-caption">
             <a href="https://github.com/JulienDev76-75/Application-AppSheet" target="_blank" rel="noreferrer noopener">
-              <h5>Application Vert Marine Analytics</h5>
+              <h5 class="mail text-white">Application Vert Marine Analytics</h5>
             </a>
             <p>Je vous présente le code de mon application VMA réalisé avec Symfony 5, Chart.Js, Javascript, Boostrap et
               MySQL.</p>
@@ -369,11 +387,11 @@
         <span class="visually-hidden">Next</span>
       </button>
     </div>
-    <hr id="contact" class="hr text-dark mx-auto w-50">
   </section>
 
   <!-- Footer -->
   <footer class="bg-dark text-center text-white">
+    <hr id="contact" class="hr text-dark mx-auto w-50">
     <h2 class="text-center pb-2 pt-5 w-75 mx-auto">Pour me contacter :
       <hr className="hr w-100">
       </hr>
@@ -383,7 +401,7 @@
       <p>Tout juste titulaire d'un titre de Véveloppeur Web et Web mobile à l'AFPA du Saint-Etienne du Rouvray, je suis
         à la recherche d'un emploi dans mon secteur en Normandie ou dans le bassin parisien.
         Si mon profil vous intéresse, vous pouvez directement me contacter
-        en cliquant sur le lien ci-joint : <a class="mailto"
+        en cliquant sur le lien ci-joint : <a class="mailto mail text-white"
           href="mailto:julien.coart@gmail.com">julien.coart@gmail.com.</a>
       </p>
     </div>
